@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+
+<body>
+    <div>
+        <form action="feedback.php">
+            <div>
+                <div>
+                    <p>Cotact Information</p>
+                </div>
+                <div>
+                    <div>
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="fname" placeholder="First Name" value="">
+                    </div>
+                    <div>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lname" placeholder="Last Name" value="">
+                    </div>
+                    <div>
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="tel" id="phonenumber" name="pnumber" placeholder="Phone Number" value="">
+                    </div>
+                    <div>
+                        <label for="contactemail">Email</label>
+                        <input type="email" id="contactemail" name="email" placeholder="Email" value="">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>Preferred contact method</p>
+                    </div>
+                    <div>
+                        <label for="prefemail">Email</label>
+                        <input type="checkbox" id="prefemail" name="contactemail" value="preferred">
+                    </div>
+                    <div>
+                       <label for="prefphone">Phone</label>
+                       <input type="checkbox" id="prefphone" name="contactphone" value="preferred">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p>Feedback</p>
+                </div>
+                <div>
+                    <label for="subject">Message subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" value="">
+                </div>
+                <div>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div>
+                <label for="attachment">Attach a file</label>
+                <input type="file" id="attachment" name="attachment">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
