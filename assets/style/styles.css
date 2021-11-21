@@ -1,3 +1,17 @@
 /* styles 
 TODO: write basic styles and connect to the html
 */
+
+body
+{
+    background-color: ghostwhite;
+}
+
+.dotted-cyan
+{
+    border:cyan 8px dashed;
+}
+
+.red-header { 
+    color:red;
+}
