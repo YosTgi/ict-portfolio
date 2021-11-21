@@ -7,6 +7,29 @@ body
     background-color: ghostwhite;
 }
 
+/*
+Navbar styles
+*/
+nav {
+    border-bottom: 1px solid gray;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu ul {
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+}
+
+.menu li {
+    font-size: 22px;
+    margin: 12px;
+    display: inline;
+}
+
 .dotted-cyan
 {
     border:cyan 8px dashed;
